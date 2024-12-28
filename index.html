@@ -3,172 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Intro</title>
+    <title>Suresh Workspace</title>
+    <style>
+        .day-link {
+            width: 650px;
+            margin: 20px auto;
+            padding: 5px 10px;
+            border: 1px solid lightgrey;
+            border-radius: 6px;
+            color: #000;
+        }
+
+        .link {
+            text-decoration: none;
+        }
+    </style>
 </head>
-<body style="margin: auto;">
-    <div style="width:460px; margin:auto;">
-        <h2 style="text-align: center">Welcome to git and github session</h2>
-        <img src="./git.jpg" width="450px" alt="git">
-        <br>
-        <p>Git is an version control System used to:</p>
-        <ul>
-            <li>Keep track of all files and changes.</li>
-            <li>We can save all files in cloud using Github.</li>
-        </ul>
-    </div>
-    <h4 style="text-align: center">
-        Following are list of commands and there usage helpful for beginners:
-    </h4>
+<body style="margin: auto; 
+             box-sizing: border-box;
+             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <h1 style="margin: 20px auto; width:fit-content">
+        Suresh Assignments
+    </h1>
+   <a href="./day4/git-commands.html" class="link">
+        <div class="day-link">
+            <b>Day-4</b><br>
+            <span>Git Commands</span>
+        </div>
+    </a>
+    <a href="./day5/index.html" class="link">
+        <div class="day-link">
+            <b>Day-5</b><br>
+            <span>Into to CSS</span>
+        </div>
+    </a>
     <br>
-    <table 
-        border="1px solid #100808" 
-        align="center" 
-        style="border-collapse:collapse;width:80%"
-        cellPadding="10px"
-    >
-        <!-- <tr>
-            <th colspan="2">Git Commands</th>
-        </tr> -->
-        <tr>
-            <th>Command</th>
-            <th>Description</th>
-        </tr>
-        <tr>
-            <td>
-                git init
-            </td>
-            <td>
-                Initialize a local Git repository
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git status
-            </td>
-            <td>
-                Check status
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git add [file-name.txt] 
-            </td>
-            <td>
-                Add a file to the staging area
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git add [.] 
-            </td>
-            <td>
-                Add all files to the staging area
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git commit -m "[commit message]"
-            </td>
-            <td>
-                Commit changes
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git log
-            </td>
-            <td>
-                View changes
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git reset --hard [CommitCode]
-            </td>
-            <td>
-                hard reset permanently deletes your local changes and moves your HEAD pointer to the specified commit    
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git reset --soft [Commitcode]
-            </td>
-            <td>
-                soft reset reverts your changes without deleting them from your local repository. It moves your HEAD pointer back to the previous commit, but keeps your changes in the staging area    
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git remote add origin ssh://git@github.com/[username]/[repository-name].git
-            </td>
-            <td>
-                Add a remote repository
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git push -u origin [branch name]
-            </td>
-            <td>
-                Push changes to remote repository (and remember the branch)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git push origin [branch name]
-            </td>
-            <td>
-                Push a branch to your remote repository
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git branch [branch name]
-            </td>
-            <td>
-                Create a new branch
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git clone ssh://git@github.com/[username]/[repository-name].git
-            </td>
-            <td>
-                Create a local copy of a remote repository
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git push
-            </td>
-            <td>
-                Push changes to remote repository (remembered branch)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git push origin [branch name]
-            </td>
-            <td>
-                Push a branch to your remote repository
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git pull
-            </td>
-            <td>
-                Update local repository to the newest commit
-            </td>
-        </tr>
-        <tr>
-            <td>
-                git pull origin [branch name]
-            </td>
-            <td>
-                Pull changes from remote repository branch
-            </td>
-        </tr>
-    </table>
+    <br>
 </body>
 </html>
