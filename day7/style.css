@@ -1,0 +1,85 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box; 
+}
+
+.main{
+    margin: 20px auto;
+    width: 800px;
+}
+
+.center{
+    text-align: center;
+}
+
+.title{
+    position:sticky;
+    top:0;
+    background-color: white;
+}
+
+.img-nature {
+    width: 720px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: block;
+}
+
+.img-indoor {
+    width: 560px;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: block;    
+}
+
+.footer {
+    position: sticky;
+    bottom:0;
+    background-color: rgb(180, 176, 176);
+    font-size: 14px;
+    font-style: italic;
+    text-align:center;
+}
+
+.btn-newsLetter {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 12px;
+    font-size:16px
+}
+
+.card-bg {
+    width: 760px;
+    position: relative;
+    margin: 60px auto;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.card-content {
+    position: absolute;
+    text-align:center;
+    padding: 0 20px;
+    bottom: 50px;
+    color: white;
+}
+
+.tint {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 16px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
