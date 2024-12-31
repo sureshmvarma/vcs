@@ -57,7 +57,6 @@ body{
     width: 760px;
     position: relative;
     margin: 60px auto;
-    box-sizing: border-box;
     border-radius: 16px;
 }
 
